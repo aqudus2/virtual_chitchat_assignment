@@ -1,6 +1,24 @@
 # virtual_chitchat_assignment
 Take home assignment for the job application which is to deploy ML models with FastAPI and docker
 
+Data use for this assignment was download from sckit-learn datasets
+
+"""Forest covertype dataset.
+
+A classic dataset for classification benchmarks, featuring categorical and
+real-valued features.
+
+The dataset page is available from UCI Machine Learning Repository
+
+    https://archive.ics.uci.edu/ml/datasets/Covertype
+
+Courtesy of Jock A. Blackard and Colorado State University.
+"""
+
+# Author: Lars Buitinck
+#         Peter Prettenhofer <peter.prettenhofer@gmail.com>
+# License: BSD 3 clause
+
 #Dataset Information
 
 Predicting forest cover type from cartographic variables only (no remotely sensed data).  The actual forest cover type for a given observation (30 x 30 meter cell) was determined from US Forest Service (USFS) Region 2 Resource Information System (RIS) data.  Independent variables were derived from data originally obtained from US Geological Survey (USGS) and USFS data.  Data is in raw form (not scaled) and contains binary (0 or 1) columns of data for qualitative independent variables (wilderness areas and soil types).
@@ -15,8 +33,6 @@ The Rawah and Comanche Peak areas would tend to be more typical of the overall d
 #Additional Variable Information
 
 Given is the attribute name, attribute type, the measurement unit and a brief description.  The forest cover type is the classification  problem.  The order of this listing corresponds to the order of numerals along the rows of the database.
-
-
 
 Name / Data Type / Measurement / Description
 
