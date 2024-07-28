@@ -3,7 +3,7 @@ Take home assignment for the job application which is to deploy ML models with F
 
 Data use for this assignment was download from sckit-learn datasets
 
-"""Forest covertype dataset.
+"Forest covertype dataset.
 
 A classic dataset for classification benchmarks, featuring categorical and
 real-valued features.
@@ -13,7 +13,7 @@ The dataset page is available from UCI Machine Learning Repository
     https://archive.ics.uci.edu/ml/datasets/Covertype
 
 Courtesy of Jock A. Blackard and Colorado State University.
-"""
+"
 
 # Author: Lars Buitinck
 #         Peter Prettenhofer <peter.prettenhofer@gmail.com>
@@ -30,7 +30,7 @@ Some background information for these four wilderness areas: Neota (area 2) prob
 As for primary major tree species in these areas, Neota would have spruce/fir (type 1), while Rawah and Comanche Peak would probably have lodgepole pine (type 2) as their primary species, followed by spruce/fir and aspen (type 5). Cache la Poudre would tend to have Ponderosa pine (type 3), Douglas-fir (type 6), and cottonwood/willow (type 4).  
 The Rawah and Comanche Peak areas would tend to be more typical of the overall dataset than either the Neota or Cache la Poudre, due to their assortment of tree species and range of predictive variable values (elevation, etc.)  Cache la Poudre would probably  be more unique than the others, due to its relatively low  elevation range and species composition. 
 
-#Additional Variable Information
+# Additional Variable Information
 
 Given is the attribute name, attribute type, the measurement unit and a brief description.  The forest cover type is the classification  problem.  The order of this listing corresponds to the order of numerals along the rows of the database.
 
@@ -62,6 +62,10 @@ Soil_Type (40 binary columns) / qualitative / 0 (absence) or 1 (presence) / Soil
 
 Cover_Type (7 types) / integer / 1 to 7 / Forest Cover Type designation
 
-#Class Labels
-
+# Class Labels
 Spruce/Fir, Lodgepole Pine, Ponderosa Pine, Cottonwood/Willow, Aspen, Douglas-fir, Krummholz
+
+# Classifier
+Random Forest Classifier was used to train the model
+
+
